@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 import com.crm.qa.base.TestBase;
-
+//This is all about the contacts page
 public class ContactsPage extends TestBase{
 
 			
