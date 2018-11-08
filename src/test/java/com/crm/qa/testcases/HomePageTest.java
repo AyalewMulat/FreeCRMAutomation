@@ -73,7 +73,7 @@ public class HomePageTest extends TestBase{
 	
 	public void teardown() {
 		
-		//driver.quit();
+		driver.quit();
 	}
 		
 	

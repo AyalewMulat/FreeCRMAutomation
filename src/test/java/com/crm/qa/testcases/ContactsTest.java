@@ -88,7 +88,7 @@ public void CreateNewContact(String title, String firstName,String lastName,Stri
 	
 	public void teardown() {
 		
-		//driver.quit();
+		driver.quit();
 	}
 		
 	

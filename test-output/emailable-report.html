@@ -31,82 +31,262 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">0</td><td class="numi">72.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Free CRM Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">16</td><td class="numi">0</td><td class="numi">76.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m1"><b>setup</b>  </a></td><td class="numi">1</td><td>1540668469210</td><td class="numi">0</td></tr>
-<tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr>
-<tr class="skippedodd"><td rowspan="2">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m2"><b>setup</b>  </a></td><td class="numi">2</td><td>1540668541925</td><td class="numi">4</td></tr><tr class="skippedodd"><td><a href="#m3"><b>teardown</b>  </a></td><td class="numi">3</td><td>1540668541924</td><td class="numi">8</td></tr>
-<tr><th colspan="4">Default test &#8212; skipped</th></tr>
-<tr class="skippedodd"><td rowspan="3">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m4"><b>validateLoginPagetitleTest</b>  </a></td><td class="numi">1</td><td>1540668541921</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m5"><b>crmLogoImageTest</b>  </a></td><td class="numi">1</td><td>1540668541926</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m6"><b>LoginTest</b>  </a></td><td class="numi">1</td><td>1540668541931</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Free CRM Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.crm.qa.testcases.ContactsTest</td><td><a href="#m1"><b>setup</b>  </a></td><td class="numi">1</td><td>1541709232886</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m2"><b>setup</b>  </a></td><td class="numi">1</td><td>1541709260930</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m3"><b>setup</b>  </a></td><td class="numi">1</td><td>1541709285196</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Free CRM Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.crm.qa.testcases.ContactsTest</td><td><a href="#m4"><b>setup</b>  </a></td><td class="numi">9</td><td>1541709260051</td><td class="numi">866</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m5"><b>setup</b>  </a></td><td class="numi">2</td><td>1541709285186</td><td class="numi">4</td></tr>
+<tr class="skippedodd"><td rowspan="2">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m6"><b>setup</b>  </a></td><td class="numi">2</td><td>1541709309267</td><td class="numi">3</td></tr><tr class="skippedodd"><td><a href="#m7"><b>teardown</b>  </a></td><td class="numi">3</td><td>1541709309267</td><td class="numi">7</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.crm.qa.testcases.ContactsTest</td><td><a href="#m8"><b>teardown</b>  </a></td><td class="numi">10</td><td>1541709260047</td><td class="numi">875</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m9"><b>teardown</b>  </a></td><td class="numi">3</td><td>1541709285185</td><td class="numi">10</td></tr>
+<tr><th colspan="4">Free CRM Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m10"><b>ContactsClick</b>  </a></td><td class="numi">1</td><td>1541709285187</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="7">com.crm.qa.testcases.ContactsTest</td><td><a href="#m11"><b>CreateNewContact</b>  </a></td><td class="numi">7</td><td>1541709260876</td><td class="numi">43</td></tr><tr class="skippedeven"><td><a href="#m12"><b>CreateNewContact</b>  </a></td><td class="numi">7</td><td>1541709260876</td><td class="numi">43</td></tr><tr class="skippedeven"><td><a href="#m13"><b>CreateNewContact</b>  </a></td><td class="numi">7</td><td>1541709260876</td><td class="numi">43</td></tr><tr class="skippedeven"><td><a href="#m14"><b>CreateNewContact</b>  </a></td><td class="numi">7</td><td>1541709260876</td><td class="numi">43</td></tr><tr class="skippedeven"><td><a href="#m15"><b>CreateNewContact</b>  </a></td><td class="numi">7</td><td>1541709260876</td><td class="numi">43</td></tr><tr class="skippedeven"><td><a href="#m16"><b>CreateNewContact</b>  </a></td><td class="numi">7</td><td>1541709260876</td><td class="numi">43</td></tr><tr class="skippedeven"><td><a href="#m17"><b>CreateNewContact</b>  </a></td><td class="numi">7</td><td>1541709260876</td><td class="numi">43</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m18"><b>LoginTest</b>  </a></td><td class="numi">1</td><td>1541709309271</td><td class="numi">1</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m19"><b>Verifyusertest</b>  </a></td><td class="numi">1</td><td>1541709285191</td><td class="numi">2</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.crm.qa.testcases.ContactsTest</td><td><a href="#m20"><b>clickNewcontact</b>  </a></td><td class="numi">1</td><td>1541709260069</td><td class="numi">10</td></tr>
+<tr class="skippedeven"><td rowspan="2">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m21"><b>crmLogoImageTest</b>  </a></td><td class="numi">1</td><td>1541709309268</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m22"><b>validateLoginPagetitleTest</b>  </a></td><td class="numi">1</td><td>1541709309266</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="2">com.crm.qa.testcases.ContactsTest</td><td><a href="#m23"><b>verifyContactslbl</b>  </a></td><td class="numi">1</td><td>1541709260022</td><td class="numi">19</td></tr><tr class="skippedodd"><td><a href="#m24"><b>verifyTitleTest</b>  </a></td><td class="numi">1</td><td>1541709260055</td><td class="numi">3</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m25"><b>verifyTitleTest</b>  </a></td><td class="numi">1</td><td>1541709285183</td><td class="numi">1</td></tr>
 </table>
-<h1>Default test</h1>
-<h2 id="m1">com.crm.qa.testcases.LoginPageTest:setup</h2>
+<h1>Free CRM Test</h1>
+<h2 id="m1">com.crm.qa.testcases.ContactsTest:setup</h2>
 <div style="padding-left:3em">
-<p>Timed out waiting for driver server to start.
+<p>timeout
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
-System info: host: &apos;LAPTOP-5HLIGGH5&apos;, ip: &apos;172.18.56.112&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: driver.version: ChromeDriver</p>
-org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
-<br/>at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+System info: host: &apos;LAPTOP-5HLIGGH5&apos;, ip: &apos;172.18.56.113&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\ayalt\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: b7f22049d90bffa3b6b2792805a9dac6</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-<br/>at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
-<br/>at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:33)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+<br/>at com.crm.qa.base.TestBase.initialization(TestBase.java:57)
+<br/>at com.crm.qa.testcases.ContactsTest.setup(ContactsTest.java:38)
 <br/>27 lines not shown
-<p>Caused by Timed out waiting for [http://localhost:47591/status] to be available after 20004 ms</p>
-org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
-<br/>at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
-<br/>at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.crm.qa.testcases.LoginPageTest:setup</h2>
+<div style="padding-left:3em">
+<p>timeout
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;LAPTOP-5HLIGGH5&apos;, ip: &apos;172.18.56.113&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\ayalt\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: 705a1c2223b2a4961182909b2515e81d</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-<br/>at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
-<br/>at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:33)
-<br/>27 lines not shown
-<p>Caused by null</p>
-java.util.concurrent.FutureTask.get(Unknown Source)
-<br/>at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
-<br/>at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
-<br/>at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
-<br/>at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-<br/>at com.crm.qa.base.TestBase.initialization(TestBase.java:50)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+<br/>at com.crm.qa.base.TestBase.initialization(TestBase.java:57)
 <br/>at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:33)
 <br/>27 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">com.crm.qa.testcases.LoginPageTest:teardown</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">com.crm.qa.testcases.LoginPageTest:teardown</h2>
+<h2 id="m3">com.crm.qa.testcases.HomePageTest:setup</h2>
+<div style="padding-left:3em">
+<p>timeout
+  (Session info: chrome=70.0.3538.67)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;LAPTOP-5HLIGGH5&apos;, ip: &apos;172.18.56.113&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\ayalt\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.67, webStorageEnabled: true}
+Session ID: b2aa180c78d5c8c90c475d173c929aef</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+<br/>at com.crm.qa.base.TestBase.initialization(TestBase.java:57)
+<br/>at com.crm.qa.testcases.HomePageTest.setup(HomePageTest.java:33)
+<br/>27 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m4">com.crm.qa.testcases.LoginPageTest:teardown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">com.crm.qa.testcases.LoginPageTest:setup</h2>
+<h2 id="m5">com.crm.qa.testcases.ContactsTest:teardown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">com.crm.qa.testcases.LoginPageTest:setup</h2>
+<h2 id="m6">com.crm.qa.testcases.HomePageTest:teardown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">com.crm.qa.testcases.LoginPageTest:LoginTest</h2>
+<h2 id="m7">com.crm.qa.testcases.HomePageTest:setup</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">com.crm.qa.testcases.LoginPageTest:crmLogoImageTest</h2>
+<h2 id="m8">com.crm.qa.testcases.ContactsTest:setup</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m9">com.crm.qa.testcases.LoginPageTest:validateLoginPagetitleTest</h2>
+<h2 id="m9">com.crm.qa.testcases.ContactsTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.crm.qa.testcases.LoginPageTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.crm.qa.testcases.ContactsTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.crm.qa.testcases.ContactsTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.crm.qa.testcases.ContactsTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.crm.qa.testcases.ContactsTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.crm.qa.testcases.ContactsTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.crm.qa.testcases.ContactsTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.crm.qa.testcases.LoginPageTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.crm.qa.testcases.ContactsTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.crm.qa.testcases.LoginPageTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.crm.qa.testcases.ContactsTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.crm.qa.testcases.ContactsTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.crm.qa.testcases.ContactsTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.crm.qa.testcases.ContactsTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.crm.qa.testcases.ContactsTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.crm.qa.testcases.HomePageTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.crm.qa.testcases.ContactsTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.crm.qa.testcases.HomePageTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.crm.qa.testcases.ContactsTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.crm.qa.testcases.LoginPageTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.crm.qa.testcases.HomePageTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.crm.qa.testcases.ContactsTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.crm.qa.testcases.ContactsTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">com.crm.qa.testcases.ContactsTest:CreateNewContact</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Miss</td>
+<td>Siquare</td>
+<td>Hordofa</td>
+<td>Denkaka</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">com.crm.qa.testcases.ContactsTest:CreateNewContact</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Ms.</td>
+<td>Adanech</td>
+<td>Habibi</td>
+<td>Dawro</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">com.crm.qa.testcases.ContactsTest:clickNewcontact</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">com.crm.qa.testcases.LoginPageTest:crmLogoImageTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">com.crm.qa.testcases.ContactsTest:CreateNewContact</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Dr.</td>
+<td>Kiku</td>
+<td>Kenyata</td>
+<td>Kaku</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">com.crm.qa.testcases.HomePageTest:Verifyusertest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">com.crm.qa.testcases.HomePageTest:ContactsClick</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">com.crm.qa.testcases.ContactsTest:CreateNewContact</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Sir</td>
+<td>David </td>
+<td>Rodishia</td>
+<td>Mombasa</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">com.crm.qa.testcases.ContactsTest:CreateNewContact</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Prof.</td>
+<td>Zinabu</td>
+<td>Gebremariam</td>
+<td>Hawasa</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">com.crm.qa.testcases.ContactsTest:CreateNewContact</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Mr.</td>
+<td>Bekele</td>
+<td>Gashe</td>
+<td>Boku PLC</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">com.crm.qa.testcases.HomePageTest:verifyTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">com.crm.qa.testcases.ContactsTest:verifyTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">com.crm.qa.testcases.ContactsTest:verifyContactslbl</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">com.crm.qa.testcases.ContactsTest:CreateNewContact</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Mrs.</td>
+<td>Hilary</td>
+<td>Andrew</td>
+<td>Shuanzu</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">com.crm.qa.testcases.LoginPageTest:LoginTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">com.crm.qa.testcases.LoginPageTest:validateLoginPagetitleTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
